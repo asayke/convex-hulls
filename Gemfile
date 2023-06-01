@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "http://rubygems.org"
 
 # Specify your gem's dependencies in convex-hulls.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
 
-gem "minitest", "~> 5.0"
-
-gem "standard", "~> 1.3"
+gem "test-unit", "~> 3.0"
