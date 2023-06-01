@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["kolodiazhnyi@sfedu.ru"]
 
   spec.summary = "A library for constructing convex hulls. Implementation of Jarvis and Graham algorithms."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.description = "A library for constructing convex hulls. Implementation of Jarvis and Graham algorithms."
   spec.homepage = "https://github.com/asayke/convex-hulls.git"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
