@@ -5,6 +5,18 @@ module Convex
     class Error < StandardError; end
 
     class Graham
+      def orientation(p, q, r)
+        val = (q[1] - p[1]) * (r[0] - q[0]) - (q[0] - p[0]) * (r[1] - q[1])
+
+        if val == 0
+          0
+        elsif val > 0
+          return 1
+        else
+          2
+        end
+      end
+
       def next_to_top(stack)
         p = stack.pop
         res = stack[-1]

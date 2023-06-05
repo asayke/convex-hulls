@@ -1,7 +1,6 @@
-# frozen_string_literal: true
-
 require "test/unit"
-require_relative '..\..\lib\convex\hulls.rb'
+require_relative '..\..\lib\convex\jarvis.rb'
+require_relative '..\..\lib\convex\graham.rb'
 
 class TestHulls < Test::Unit::TestCase
   def setup
