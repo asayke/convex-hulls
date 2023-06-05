@@ -6,15 +6,13 @@ Graham's algorithm is an algorithm for constructing a convex hull in two—dimen
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+To install convex-hulls, you need to have Ruby installed on your computer. If Ruby is not installed yet, you can download it from the official website https://www.ruby-lang.org/en/downloads/.
 
-Install the gem and add to the application's Gemfile by executing:
+After installing Ruby, you need to follow these steps:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+> + Copy a repository writing ```$ git clone https://github.com/asayke/convex-hulls.git``` in folder of your choice 
+> + Write ```$ gem build convex-hulls.gemspec```
+> + Write ```$ gem install ./convex-hulls-x.x.x.gem``` (depending on your build version)
 
 ## Usage
 
