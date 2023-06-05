@@ -1,8 +1,8 @@
 # Convex::Hulls
 
-TODO: Delete this and the text below, and describe your gem
+The Jarvis algorithm (or the Jarvis bypass algorithm, or the gift wrapping algorithm) determines the sequence of elements of a set forming a convex hull for this set. The method can be represented as a rope wrapping of a set of nails driven into the board. The algorithm works in time O(nh), where n is the total number of points on the plane,  h is the number of points in the convex hull.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/convex/hulls`. To experiment with that code, run `bin/console` for an interactive prompt.
+Graham's algorithm is an algorithm for constructing a convex hull in two—dimensional space. In this algorithm, the convex hull problem is solved using a stack formed from candidate points. All points of the input set are entered into the stack, and then points that are not vertices of the convex hull are eventually removed from it. Upon completion of the algorithm, only the shell vertices remain in the glass in the order of their counterclockwise traversal.
 
 ## Installation
 
@@ -22,12 +22,12 @@ To use Algorithms, you need to create an Algorithms class object and call its me
 
 Jarvis algorithm :
 ```rb
-@algorithms.jarvis(points)
+@jarvis.jarvis(points)
 ```
 
 Graham algorithm :
 ```rb
-@algorithms.graham(points)
+@graham.graham(points)
 ```
 
 ## Development
